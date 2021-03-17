@@ -1,0 +1,369 @@
+*{
+    margin: auto;
+    font-family: Arial;
+}
+
+html{
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+li,
+p{
+    color: white;
+}
+
+h1,
+h2{
+    text-decoration: underline;
+}
+
+a{
+    color: hsl(147, 64%, 61%);
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.25rem;
+}
+
+p{
+    line-height: 1.4;
+}
+
+body{
+    background-color: hsl(210, 91%, 22%);
+}
+
+.nav {
+    width: 98vw;
+    background-color: hsl(0, 0%, 55%);
+    margin-top: .5em;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: .5em;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav li {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0 1em;
+}
+
+#icon{
+    width: auto;
+    height: 130px;
+    padding-top: .3em;
+}
+
+.pageBody{
+    width: 99vw;
+    text-align: center;
+    justify-content: center;
+}
+
+#statement{
+    width: 40vw;
+}
+
+.aboutMe,
+.project{
+    width: 60vw;
+    border-bottom-style: groove;
+    border-color: white;
+    padding-bottom: .5em;
+    margin-bottom: .5em;
+}
+
+.aboutMe li{
+    list-style-type: none;
+}
+
+footer{
+    border: thick double white;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 1em;
+    padding: .25em 0;
+    width: 350px;
+}
+
+#selfPic,
+#CCD,
+#guiImage{
+    width: 600px;
+    height: auto;
+    padding: .5em;
+}
+
+#codeImages{
+    height: 225px;
+    width: auto;
+    padding: .2em .1em;
+}
+
+@media only screen and (max-width: 1125px){
+
+    .nav li {
+        font-size: 2.8rem;
+    }
+
+    #icon{
+        height: 200px;
+    }
+
+    h1{
+        font-size: 7rem;
+    }
+
+    h2{
+        font-size: 4rem;
+    }
+
+    h3{
+        font-size: 3rem;
+    }
+    
+    h4,
+    p{
+        font-size: 2rem;
+    }
+
+    #statement,
+    #selfPic{
+        width: 98%;
+    }
+
+    .aboutMe,
+    .project{
+        width: 98%;
+    }
+
+    .aboutMe li{
+        font-size: 2rem;
+    }
+
+    #codeImages,
+    #CCD,
+    #guiImage{
+        width: 98%;
+        height: auto;
+    }
+
+    .link{
+        font-size: 2rem;
+    }
+
+    footer{
+        width: 75%;
+    }
+
+}
+
+@media only screen and (max-width: 960px){
+
+    .nav li {
+        font-size: 2.4rem;
+    }
+
+    #icon{
+        height: 180px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .nav li {
+        font-size: 1.9rem;
+    }
+
+    #icon{
+        height: 150px;
+    }
+
+    h1{
+        font-size: 5rem;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+    
+    h4,
+    p{
+        font-size: 1.5rem;
+    }
+
+    footer{
+        width: 80%;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    .nav li {
+        font-size: 1.2rem;
+    }
+
+    #icon{
+        height: 100px;
+    }
+
+    h1{
+        font-size: 3.3rem;
+    }
+
+    h2{
+        font-size: 2.5rem;
+    }
+
+    h3{
+        font-size: 1.5rem;
+    }
+
+    h4,
+    p{
+        font-size: 1.1rem;
+    }
+    
+    .link{
+        font-size: 1.2rem;
+    }
+
+    .aboutMe li{
+        font-size: 1.2rem;
+    }
+
+    #selfPic,
+    #guiImage,
+    #CCD{
+        width: 95%;
+    }
+
+}
+
+@media only screen and (max-width: 414px){
+
+    .nav li {
+        font-size: .95rem;
+    }
+
+    h1{
+        font-size: 2.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+
+    .nav li {
+        font-size: .85rem;
+    }
+
+    #icon{
+        height: 95px;
+    }
+
+    h1{
+        font-size: 2.6rem;
+    }
+
+    h2{
+        font-size: 1.7rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    h4,
+    p{
+        font-size: .8rem;
+    }
+    
+    .link{
+        font-size: .9rem;
+    }
+
+    .aboutMe li{
+        font-size: .9rem;
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+
+    .nav li {
+        font-size: .8rem;
+    }
+
+    h1{
+        font-size: 2.4rem;
+    }
+
+    #icon{
+        height: 80px;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+
+    .nav li {
+        font-size: .77rem;
+    }
+
+    #icon{
+        height: 70px;
+    }
+
+    h1{
+        font-size: 2.2rem;
+    }
+
+    h2{
+        font-size: 1.7rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    h4,
+    p{
+        font-size: .8rem;
+    }
+    
+    .link{
+        font-size: .9rem;
+    }
+
+    .aboutMe li{
+        font-size: .9rem;
+    }
+
+}
