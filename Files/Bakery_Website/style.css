@@ -1,0 +1,325 @@
+*{
+    margin: auto;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+html{
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+}
+
+p,
+a,
+h2,
+h3,
+li{
+    color: white;
+}
+
+h1,
+h2,
+h3{
+    text-decoration: underline;
+}
+
+#headerPicture{
+    margin-top: .5em;
+    width: auto;
+    height: 500px;
+    outline: thick dotted #61C7E9;
+}
+
+body{
+    background-color: hsl(348.3, 70%, 85.9%);
+    text-align: center;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+h2,
+h3{
+    color: #61C7E9
+}
+
+li{
+    padding: .1em 0;
+}
+
+.menu{
+    width: 550px;
+    margin: .5em auto;
+}
+
+.menu ul{
+    font-size: 2rem;
+    outline: thick dotted #61C7E9;
+    background-color: rgb(167, 167, 167);
+}
+
+.menu li a{
+    color: white;
+}
+
+.recipe{
+    width: 65%;
+    word-spacing: 2px;
+    line-height: 1.6;
+}
+
+.ingredients{
+    float: left;
+    width: 29%;
+}
+
+.method{
+    float: right;
+    width: 69%;
+}
+
+.ingredients,
+.method{
+    background-color: rgb(167, 167, 167);
+    outline: thick dotted #61C7E9;
+    margin-bottom: .5em;
+}
+
+@media only screen and (max-width: 1125px){
+
+    #headerPicture{
+        width: 97%;
+        height: auto;
+    }
+
+    h1{
+        font-size: 9rem;
+    }
+
+    h2{
+        font-size: 3.5rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    .menu{
+        width: 97%;
+    }
+
+    .menu li a{
+        font-size: 4.25rem;
+    }
+
+    .dishName{
+        font-size: 4rem;
+    }
+
+    .recipe,
+    .ingredients,
+    .method{
+        width: 97.5%;
+    }
+
+    .ingredients,
+    .method{
+        float: none;
+    }
+
+    .ingredients{
+        margin-bottom: .75em;
+    }
+
+    .method{
+        margin-top: .75em;
+    }
+
+    .recipe li{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 960px){
+
+    h1{
+        font-size: 6rem;
+    }
+
+    .menu li a{
+        font-size: 3.25rem;
+    }
+
+    .recipe li{
+        font-size: 1.125rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    h1{
+        font-size:7rem;
+    }
+
+    h2{
+        font-size: 2.75rem;
+    }
+
+    h3{
+        font-size: 1.75rem;
+    }
+
+    .menu li a{
+        font-size: 2rem;
+    }
+
+    .recipe li{
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    h3{
+        font-size: .9rem;
+    }
+
+    .menu li a{
+        font-size: 1.75rem;
+    }
+
+    .recipe li{
+        font-size: .75rem;
+    }
+
+    .dishName{
+        font-size: 3rem;
+    }
+
+}
+
+@media only screen and (max-width: 414px){
+
+    h1{
+        font-size: 2.75rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: .8rem;
+    }
+
+    .menu li a{
+        font-size: 1.5rem;
+    }
+
+    .recipe li{
+        font-size: .7rem;
+    }
+
+    .dishName{
+        font-size: 2.75rem;
+    }
+
+}
+
+@media only screen and (max-width: 375px){
+
+    h1{
+        font-size: 2.75rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: .8rem;
+    }
+
+    .menu li a{
+        font-size: 1.25rem;
+    }
+
+    .recipe li{
+        font-size: .7rem;
+    }
+
+    .dishName{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+
+    h1{
+        font-size: 2.75rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: .8rem;
+    }
+
+    .menu li a{
+        font-size: 1.25rem;
+    }
+
+    .recipe li{
+        font-size: .5rem;
+    }
+
+    .dishName{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 320px){
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: .8rem;
+    }
+
+    .menu li a{
+        font-size: 1.125rem;
+    }
+
+    .recipe li{
+        font-size: .5rem;
+    }
+
+    .dishName{
+        font-size: 2.25rem;
+    }
+
+}
