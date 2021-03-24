@@ -108,7 +108,8 @@ footer{
 
 #selfPic,
 #CCD,
-#guiImage{
+#guiImage,
+#PeriodicTableImage{
     width: 600px;
     height: auto;
     padding: .5em;
@@ -163,7 +164,8 @@ footer{
 
     #codeImages,
     #CCD,
-    #guiImage{
+    #guiImage,
+    #PeriodicTableImage{
         width: 98%;
         height: auto;
     }
@@ -260,7 +262,8 @@ footer{
 
     #selfPic,
     #guiImage,
-    #CCD{
+    #CCD,
+    #PeriodicTableImage{
         width: 95%;
     }
 
