@@ -49,6 +49,7 @@ body{
     width: 98vw;
     background-color: hsl(0, 0%, 55%);
     margin-top: .5em;
+    border-radius: 5px;
 }
 
 .nav ul {
