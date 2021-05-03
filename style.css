@@ -166,7 +166,8 @@ footer{
     #codeImages,
     #CCD,
     #guiImage,
-    #PeriodicTableImage{
+    #PeriodicTableImage,
+    #WeatherAppImage{
         width: 98%;
         height: auto;
     }
@@ -264,7 +265,8 @@ footer{
     #selfPic,
     #guiImage,
     #CCD,
-    #PeriodicTableImage{
+    #PeriodicTableImage,
+    #WeatherAppImage{
         width: 95%;
     }
 
