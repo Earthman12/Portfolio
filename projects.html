@@ -29,6 +29,22 @@
             <h1>Personal and Work Projects:</h1>
 
             <section class = "project">
+                <h2>Wild West Cowboy Store</h2>
+                <h4>Description:</h4>
+                <p>
+                    This store site was made with Django
+                </p>
+                <img id = "wwcbs_image" src = "./pictures/wwcbs_home.png">
+                <img id = "wwcbs_image" src = "./pictures/wwcbs_products.png">
+                <img id = "wwcbs_image" src = "./pictures/wwcbs_blog.png">
+                <img id = "wwcbs_image" src = "./pictures/wwcbs_login.png">
+                <img id = "wwcbs_image" src = "./pictures/wwcbs_register.png">
+                <img id = "wwcbs_image" src = "./pictures/wwcbs_admin.png">
+                <br>
+                <a class = "link" href = "https://github.com/Earthman12/wild_west_cowboy_store_site" target = "_blank">Download</a>
+            </section>
+
+            <section class = "project">
                 <h2>Weather App</h2>
                 <h4>Description:</h4>
                 <p>This weather app made with Angular.js pulls data provided by the Open Weather Map API to display a city's weather as well as its daily forecast. The icons used were from Font Awesome's API. A sun or a moon is displayed corresponding to the current time of day.</p>
@@ -47,18 +63,9 @@
             </section>
 
             <section class = "project">
-                <h2>Fictional Restaurant Bakery</h2>
-                <h4>Description:</h4>
-                <p>The purpose of this personal project is to further demonstrate my knowledge of HTML and CSS. 
-                </p>
-                <a class = "link" href = "Files/Bakery_Website/index.html" target = "_blank">Earthman's Kitchen</a>
-            </section>
-
-            <section class = "project">
                 <h2>Fourier Transform GUI</h2>
                 <h4>Description:</h4>
-                <p>This Python code runs a GUI that opens up a .FITS image to so that it may be fourier transformed and have its power spectrum plotted and saved. This GUI was made using PyQt so that it could be interactive with the help of Matplotlib and Astropy to display the .FITS images. 
-                    <!--This Python code takes a .FITS image and properly performs a fourier transform on it but this one I wrote for work incorporates more steps. This modified code works with a set of three Rubidium interferograms that would be transformed and plotted to calculate the resolving power of the instrument used to capture it. Before the images are transformed, they are filtered through the instrument's white light flat and debiasing images to help reduce noise in the image. Afterwards, they are cropped so that only the image is interferogram. Once the interferogram has been cropped, it is then filtered again through a median filter. The code then determines the average pixel value in the image and subtracts every pixel by that value to further filter. Finally a Hanning Window is applied to the interferogram and  then the transform is applied. The transform is then displayed and what should be seen in first and fourth quadrants of the image are two bright areas symetric of each other which in theory are the Rubidium lines: 6298.3252Å and 6299.2245Å. The code then looks for the row in the fourth quadrant these areas are located, plots them, and calculates the resolving power of the instrument that was used.--> 
+                <p>This Python code runs a GUI that opens up a .FITS image to so that it may be filtered  before being fourier transformed and have its power spectrum plotted. This GUI was made using PyQt so that it could be interactive with the help of Matplotlib and Astropy to display the .FITS images. Additionally, this GUI allows the user open a new .FITS image to display, crop the image, select which row of the transform is plotted, debias the image, and save the values of the plot as a .DAT file.
                 </p>
 
                 <section id = "fourierImages">
@@ -95,6 +102,14 @@
                 </p>
                 <img id = "CCD" src = "./pictures/CCDMount1.jpg">
                 <img id = "CCD" src = "./pictures/CCDMount2.png">
+            </section>
+
+            <section class = "project">
+                <h2>Fictional Restaurant Bakery</h2>
+                <h4>Description:</h4>
+                <p>The purpose of this personal project is to further demonstrate my knowledge of HTML and CSS. 
+                </p>
+                <a class = "link" href = "Files/Bakery_Website/index.html" target = "_blank">Earthman's Kitchen</a>
             </section>
 
         </section>

@@ -116,6 +116,10 @@ footer{
     padding: .5em;
 }
 
+#wwcbs_image{
+    width: 25rem;
+}
+
 #codeImages{
     height: 20rem;
     width: auto;
