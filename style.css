@@ -117,7 +117,9 @@ footer{
 }
 
 #wwcbs_image{
-    width: 25rem;
+    width: 500px;
+    height: auto;
+    padding: .1rem;
 }
 
 #codeImages{
