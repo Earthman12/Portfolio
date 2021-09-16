@@ -57,15 +57,13 @@
             <section class = "project">
                 <h2>Fourier Transform GUI</h2>
                 <h4>Description:</h4>
-                <p>This Python code takes a .FITS image and properly performs a fourier transform on it but this one I wrote for work incorporates more steps. This modified code works with a set of three Rubidium interferograms that would be transformed and plotted to calculate the resolving power of the instrument used to capture it. Before the images are transformed, they are filtered through the instrument's white light flat and debiasing images to help reduce noise in the image. Afterwards, they are cropped so that only the image is interferogram. Once the interferogram has been cropped, it is then filtered again through a median filter. The code then determines the average pixel value in the image and subtracts every pixel by that value to further filter. Finally a Hanning Window is applied to the interferogram and  then the transform is applied. The transform is then displayed and what should be seen in first and fourth quadrants of the image are two bright areas symetric of each other which in theory are the Rubidium lines: 6298.3252Å and 6299.2245Å. The code then looks for the row in the fourth quadrant these areas are located, plots them, and calculates the resolving power of the instrument that was used. 
+                <p>This Python code runs a GUI that opens up a .FITS image to so that it may be fourier transformed and have its power spectrum plotted and saved. This GUI was made using PyQt so that it could be interactive with the help of Matplotlib and Astropy to display the .FITS images. 
+                    <!--This Python code takes a .FITS image and properly performs a fourier transform on it but this one I wrote for work incorporates more steps. This modified code works with a set of three Rubidium interferograms that would be transformed and plotted to calculate the resolving power of the instrument used to capture it. Before the images are transformed, they are filtered through the instrument's white light flat and debiasing images to help reduce noise in the image. Afterwards, they are cropped so that only the image is interferogram. Once the interferogram has been cropped, it is then filtered again through a median filter. The code then determines the average pixel value in the image and subtracts every pixel by that value to further filter. Finally a Hanning Window is applied to the interferogram and  then the transform is applied. The transform is then displayed and what should be seen in first and fourth quadrants of the image are two bright areas symetric of each other which in theory are the Rubidium lines: 6298.3252Å and 6299.2245Å. The code then looks for the row in the fourth quadrant these areas are located, plots them, and calculates the resolving power of the instrument that was used.--> 
                 </p>
 
                 <section id = "fourierImages">
-                    <img id = "codeImages" src = "./pictures/FringesOriginal.png">
-                    <img id = "codeImages" src = "./pictures/FringesFiltered.png">
-                    <img id = "codeImages" src = "./pictures/FourierTransform.png">
-                    <img id = "codeImages" src = "./pictures/FourierPlot.png">
-                    <img id = "codeImages" src = "./pictures/FourierConsole.png">
+                    <img id = "codeImages" src = "./pictures/fourier_transform_screenshot.png">
+                    <img id = "codeImages" src = "./pictures/fourier_transform_console_screenshot.png">
                     <br>
                     <a class = "link" href = "https://github.com/Earthman12/Fourier_Transform" target="_blank">Download</a>
                 </section>
