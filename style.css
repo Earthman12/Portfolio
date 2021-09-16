@@ -171,7 +171,8 @@ footer{
     #CCD,
     #guiImage,
     #PeriodicTableImage,
-    #WeatherAppImage{
+    #WeatherAppImage,
+    #wwcbs_image{
         width: 98%;
         height: auto;
     }
@@ -270,7 +271,8 @@ footer{
     #guiImage,
     #CCD,
     #PeriodicTableImage,
-    #WeatherAppImage{
+    #WeatherAppImage,
+    #wwcbs_image{
         width: 95%;
     }
 
