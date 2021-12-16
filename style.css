@@ -175,7 +175,8 @@ footer{
     #guiImage,
     #PeriodicTableImage,
     #WeatherAppImage,
-    #wwcbs_image{
+    #wwcbs_image,
+    #DonutImage{
         width: 98%;
         height: auto;
     }
@@ -275,7 +276,8 @@ footer{
     #CCD,
     #PeriodicTableImage,
     #WeatherAppImage,
-    #wwcbs_image{
+    #wwcbs_image,
+    #DonutImage{
         width: 95%;
     }
 
