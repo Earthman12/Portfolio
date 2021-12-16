@@ -122,7 +122,8 @@ footer{
     padding: .1rem;
 }
 
-#codeImages{
+#codeImages,
+#DonutImage{
     height: 20rem;
     width: auto;
     padding: .2em .1em;
